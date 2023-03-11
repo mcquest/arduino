@@ -26,40 +26,40 @@ void loop()
   delay(3000);
 
   // Vehicle to move in square with 0 traction
-  //prism.setMotorPowers(125,125);
+  //
   delay (1000);
   prism.setMotorPowers(50,-50);
   delay(600);
-  //prism.setMotorPowers(125,125);
+  //
   
   prism.setMotorPowers(50,50);
   delay(3000);
-  //prism.setMotorPowers(125,125);
+  //
   delay (1000);
   prism.setMotorPowers(50,-50);
   delay(600);
-  //prism.setMotorPowers(125,125);
+  //
   prism.setMotorPowers(50,50);
   delay(3000);
-  prism.setMotorPowers(125,125);
+  prism.setMotorPowers(100,100);
   delay (1000);
   prism.setMotorPowers(50,-50);
   delay(600);
-  //prism.setMotorPowers(125,125);
+  //
   prism.setMotorPowers(50,50);
   delay(3000);
-  //prism.setMotorPowers(125,125);
+  //
   delay (1000);
   prism.setMotorPowers(50,-50);
   delay(600);
-  //prism.setMotorPowers(125,125);
+  //
   prism.setMotorPowers(50,50);
   delay(3000);
-  //prism.setMotorPowers(125,125);
+  //
   delay (1000);
   prism.setMotorPowers(50,-50);
   delay(600);
-  //prism.setMotorPowers(125,125);
+  //
   prism.PrizmEnd();
 
 }
